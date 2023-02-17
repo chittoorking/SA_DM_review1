@@ -75,7 +75,7 @@ if add_selectbox == 'About':
     st.subheader('ABOUT THE PROJECT')
     st.markdown('Here are some important considerations while choosing an algorithm.',unsafe_allow_html=True)
     st.markdown('1. Accuracy and/or Interpretability of the Output \n 2. Speed of output or Training Time \n 4. Linearity \n 5. Number of Features',unsafe_allow_html=True)
-    st.markdown('In this tool we use size of training data, Accuracy and Speed of output to select the algorithm to deploy',unsafe_allow_html=True)
+    st.markdown('In this tool we use Accuracy and Speed of output to select the algorithm to deploy',unsafe_allow_html=True)
     
 elif add_selectbox == 'Model selection':
 	
